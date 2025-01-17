@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.30)
+cmake_minimum_required(VERSION 3.29)
 project(stationReport2)
 
 set(CMAKE_CXX_STANDARD 20)
@@ -11,4 +11,10 @@ add_executable(stationReport2 main.cpp
         src/stationReport.cpp
         headers/stationReport.h
         src/createReportsArray.cpp
-        headers/createReportsArray.h)
+        headers/createReportsArray.h
+        src/binTreeFuncs.cpp
+        headers/binTreeFuncs.h
+        headers/printSortedDataFuncs.h
+        src/printSortedDataFuncs.cpp
+        headers/binTreeSearchFuncs.h
+        src/binTreeSearchFuncs.cpp)

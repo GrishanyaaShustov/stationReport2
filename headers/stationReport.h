@@ -19,4 +19,22 @@ struct StationReport {
     void print() const;
 };
 
+struct ListNodeLastName {
+    std::string lastName;
+    int arrayID;
+    ListNodeLastName* left;
+    ListNodeLastName* right;
+};
+
+struct ListNodeThreatsEliminated {
+    unsigned int threatsEliminated;
+    int arrayID;
+    ListNodeThreatsEliminated *left;
+    ListNodeThreatsEliminated *right;
+};
+
+std::tm getDate(int year, int month, int day);
+
+bool isValidDate(int year, int month, int day);
+
 #endif //STATIONREPORT_H
