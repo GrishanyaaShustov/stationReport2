@@ -5,6 +5,7 @@
 #include "createReportsArray.h"
 
 std::tm getDate(int year, int month, int day);
+
 bool isValidDate(int year, int month, int day);
 
 StationReport *createReportsArray(int reportsCount) {

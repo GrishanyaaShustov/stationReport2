@@ -8,6 +8,8 @@ void printSortedData(ListNodeLastName *, ListNodeThreatsEliminated *, StationRep
 
 void searchDataByKey(ListNodeLastName *, ListNodeThreatsEliminated *, StationReport *);
 
+void deleteNodeByKeyValue(StationReport *&sourceReports, ListNodeLastName *&lastNameIndexRoot, ListNodeThreatsEliminated *&threatsEliminatedIndexRoot, int &size);
+
 void printAllRecords(StationReport *, int);
 
 void cleanMemmory(StationReport *, ListNodeLastName *, ListNodeThreatsEliminated *);

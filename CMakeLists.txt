@@ -17,4 +17,7 @@ add_executable(stationReport2 main.cpp
         headers/printSortedDataFuncs.h
         src/printSortedDataFuncs.cpp
         headers/binTreeSearchFuncs.h
-        src/binTreeSearchFuncs.cpp)
+        src/binTreeSearchFuncs.cpp
+        headers/deleteNodeFunc.h
+        src/deleteNodeFunc.cpp
+)

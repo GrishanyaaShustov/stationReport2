@@ -22,8 +22,8 @@ struct StationReport {
 struct ListNodeLastName {
     std::string lastName;
     int arrayID;
-    ListNodeLastName* left;
-    ListNodeLastName* right;
+    ListNodeLastName *left;
+    ListNodeLastName *right;
 };
 
 struct ListNodeThreatsEliminated {

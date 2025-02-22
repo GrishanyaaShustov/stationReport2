@@ -4,15 +4,15 @@
 #include <stationReport.h>
 #include <binTreeFuncs.h>
 
-void printSortedByLastName(ListNodeLastName* root);
+void printSortedByLastName(ListNodeLastName *root);
 
-void printSortedByThreatsEliminated(ListNodeThreatsEliminated* root);
+void printSortedByThreatsEliminated(ListNodeThreatsEliminated *root);
 
-void printSortedArrayByLastName(ListNodeLastName* root, StationReport* reports);
+void printSortedArrayByLastName(ListNodeLastName *root, StationReport *reports);
 
-void printSortedArrayByThreatsEliminated(ListNodeThreatsEliminated *root, StationReport* reports);
+void printSortedArrayByThreatsEliminated(ListNodeThreatsEliminated *root, StationReport *reports);
 
-void printSourceArray(StationReport* reports, int size);
+void printSourceArray(StationReport *reports, int size);
 
 
 #endif //PRINTSORTEDDATAFUNCS_H
